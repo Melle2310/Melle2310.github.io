@@ -1,0 +1,35 @@
+h1,
+h6,
+h11 {
+    color: gold;
+    font-size: 45px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h7,
+h8,
+h9,
+h10,
+h12,
+h13,
+h14,
+h15 {
+    color: red;
+    font-size: 20px;
+}
+
+body {
+    background: black;
+    margin: 0;
+    max-width: 1300px;
+    padding: 0.5em 0.5em;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
