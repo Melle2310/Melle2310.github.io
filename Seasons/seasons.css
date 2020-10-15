@@ -1,0 +1,129 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    
+    #seasons {
+        background-color: darkolivegreen;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #spring {
+        background-color: lightgreen;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #summer {
+        background-color: goldenrod;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #fall {
+        background-color: darkorange;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #winter {
+        background-color: powderblue;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        background-color: darkgreen;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav a {
+        color: white;
+        font-family: Verdana;
+        padding: 20px 40px;
+        text-decoration: none;
+        font-size: 125%;
+    }
+    
+    nav li {
+        display: inline;
+    }
+    
+    nav a:hover {
+        color: darkgreen;
+        background-color: yellow;
+    }
+    
+    header {}
+    
+    nav {}
+    
+    section {
+        padding: 20px;
+        overflow: auto;
+    }
+    
+    footer {
+        background-color: forestgreen;
+        padding: 10px 30px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .seasonsimg {
+        width: 100%;
+    }
+    
+    #seasonstree {
+        width: 60%;
+        padding: 5% 20%;
+    }
+    
+    #springtree {
+        width: 50%;
+        padding: 30px 10px;
+        float: right;
+    }
+    
+    #summertree {
+        width: 50%;
+        padding: 10px;
+        float: left;
+    }
+    
+    #wintertree {
+        width: 50%;
+        padding: 10px;
+        float: right;
+    }
+    
+    h1,
+    p {
+        font-family: sans-serif;
+    }
+    
+    #falltree {
+        width: 55%;
+        padding: 10px;
+        float: right;
+    }
+    
+    h2,
+    h3 {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .seasons {
+        text-align: center;
+    }
+    
+    #video {
+        width: 70%;
+        padding: 2% 15%;
+    }

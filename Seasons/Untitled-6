@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Winter </title>
+    <link rel="stylesheet" type="text/css" href="seasons.css"> </head>
+
+<body>
+    <div id="wrap">
+        <header> header</header>
+        <nav>
+            <ul> <a href="seasons.html">Seasons</a></ul>
+            <ul> <a href="spring.html">Spring</a></ul>
+            <ul> <a href="summer.html">Summer</a></ul>
+            <ul> <a href="fall.html">Fall</a></ul>
+            <ul> <a href="winter.html">Winter</a></ul>
+        </nav>
+        <section> section</section>
+        <footer>footer</footer>
+    </div>
+</body>
+
+</html>
