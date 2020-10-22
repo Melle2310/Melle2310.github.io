@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+    color: white;
+}
+
+section {
+    padding: 10px 30px;
+    overflow: auto;
+}
+
+section h1,
+h2,
+h3 {
+    color: orangered;
+    font-size: 25px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+section a {
+    text-decoration: none;
+    color: red
+}
+
+section a:hover {
+    color: white;
+    background-color: red;
+}
+
+section p {
+    color: black;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+footer {
+    background-color: darkred;
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.ouch {
+    width: 30%;
+    float: right;
+}
+
+.button {
+    background-color: #0b3d91;
+    color: white;
+    padding: 10px;
+    border-radius: 200px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Verdana;
+}
