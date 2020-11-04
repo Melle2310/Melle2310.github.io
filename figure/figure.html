@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Template </title>
+    <link rel="stylesheet" type="text/css" href="figure.css">
+    <link rel="stylesheet" href="reveal.css">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="jquery.reveal.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+                <h1> Welkom Wereld</h1> Wat is Lorem Ipsum? Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten. Waarom gebruiken we het? Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht naar "lorem ipsum" ontsluit veel websites die nog in aanbouw zijn. Verscheidene versies hebben zich ontwikkeld in de loop van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke). </div>
+        </header>
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider"> <img src="images/onana.jpg" data-thumb="images/onana.jpg" alt="" /> <img src="images/kudus.jpg" data-thumb="images/kudus.jpg" alt="" /> <img src="images/antony.jpg" data-thumb="images/antony.jpg" alt="" data-transition="slideInLeft" /> <img src="images/tagliafico.jpg" data-thumb="images/tagliafico.jpg" alt="" /> </div>
+                <div id="htmlcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
+            </div>
+        </nav>
+        <section>
+            <figure>
+                <a href="#" class="big-link" data-reveal-id="myModal"> <img src="ajax.jpg"></a>
+                <figcaption>Ajax >>> Chelsea</figcaption>
+                <div id="myModal" class="reveal-modal"> <img src="ajax.jpg"><a class="close-reveal-modal">&#215;</a> </div>
+            </figure>
+            <figure><img src="ajax.jpg">
+                <figcaption>Ajax >>> Chelsea</figcaption>
+            </figure>
+            <figure><img src="ajax.jpg">
+                <figcaption>Ajax >>> Chelsea</figcaption>
+            </figure>
+            <figure><img src="ajax.jpg">
+                <figcaption>Ajax >>> Chelsea</figcaption>
+            </figure>
+            <figure><img src="ajax.jpg">
+                <figcaption>Ajax >>> Chelsea</figcaption>
+            </figure>
+            <figure><img src="ajax.jpg">
+                <figcaption>Ajax >>> Chelsea</figcaption>
+            </figure>
+        </section>
+        <footer>footer</footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {}
+
+nav {}
+
+section {
+    overflow: auto;
+}
+
+footer {}
+
+#box {
+    width: 720px;
+    /* height: 300px;*/
+    background-color: red;
+    margin: 0 auto;
+    padding: 90px;
+    border: 50px solid black;
+}
+
+#box h1 {
+    font-family: 'Ranchers', cursive;
+}
+
+figure {
+    background-color: black;
+    width: 25%;
+    padding: 0 0% 5%;
+    border: 10px solid red;
+    float: left;
+    margin: 3%;
+}
+
+figure img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-top: 2%;
+}
