@@ -1,0 +1,332 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#sportsheader {
+    background-color: red:
+}
+
+#videoajax {
+    width: 80%;
+    padding: 2% 10%;
+}
+
+.fb-share-button {
+    float: none;
+}
+
+header {
+    background-color: red;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: red;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: auto;
+}
+
+nav a {
+    color: white;
+    font-family: Verdana;
+    padding: 15% 5% 15%;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+nav li {
+    display: inline;
+}
+
+aside a:hover {
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+    background-color: white;
+}
+
+section {
+    background-color: royalblue;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#homepage {
+    background-color: white;
+    overflow: auto;
+    padding: 3%;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+}
+
+#arjen {
+    width: 80%;
+    padding: 1% 0 3%;
+}
+
+#euros {
+    float: right;
+    padding: 2% 1% 0% 1%;
+    width: 25%;
+}
+
+#meers {
+    float: right;
+    padding: 1%;
+    width: 35%;
+}
+
+section p {
+    font-size: 100%;
+}
+
+#annes {
+    float: left;
+    padding: 1%;
+    width: 35%;
+}
+
+footer {
+    background-color: orange;
+    padding: 2%;
+    margin: 0;
+    text-align: center;
+    overflow: auto;
+}
+
+footer a {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+footer p b {
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+    padding: 0px 3%;
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wust {
+    width: 40%;
+    float: left;
+    padding: 1%
+}
+
+#duik {
+    width: 30%;
+    float: left;
+    padding: 1%
+}
+
+#hockey {
+    width: 80%;
+    text-align: center;
+    padding: 1% 10%;
+}
+
+#sinterklaas {
+    width: 40%;
+    padding: 1%
+}
+
+#clogs {
+    width: 40%;
+    padding: 1%;
+    float: right;
+}
+
+#piet {
+    width: 40%;
+    float: right;
+    padding: 1%
+}
+
+#knegt {
+    width: 30%;
+    float: right;
+    padding: 1%;
+}
+
+#poel {
+    width: 40%;
+    float: right;
+    padding: 1%
+}
+
+#golden {
+    width: 40%;
+    float: right;
+    padding: 0% 1%;
+}
+
+#kramer {
+    width: 48%;
+    float: right;
+    padding: 1%
+}
+
+#shorttrack {
+    padding: 10% 0 0 0;
+}
+
+#canales {
+    width: 30%;
+    float: left;
+    padding: 0% 1%;
+}
+
+#tulip {
+    padding: 2% 0 0 0;
+}
+
+#tulips {
+    width: 30%;
+    float: right;
+    padding: 0% 1%;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    text-align: left;
+    background-color: royalblue;
+    padding: 0%;
+    margin: 0;
+    overflow: auto;
+}
+
+aside li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 7% 0%;
+    color: white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: orange;
+    text-align: left;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+aside li a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    ;
+}
+
+article {
+    width: 71%;
+    background-color: white;
+    float: right;
+    padding: 2% 2%;
+    overflow: auto;
+}
+
+section h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 30px;
+    font-family: myFirstFont;
+    padding: 0px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+section img {
+    float: right;
+    padding: 2px;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: black;
+    }
+    #wrap {
+        width: 100%;
+    }
+    nav a {
+        display: block;
+        padding: 5px 0px;
+        margin: 0px;
+    }
+    nav ul,
+    nav li {
+        margin: 0px;
+        padding: 0px
+    }
+    nav {
+        padding: 0px;
+        margin: 0px;
+    }
+    aside,
+    article {
+        float: none;
+        width: 96%;
+    }
+    aside {
+        padding: 0px;
+        text-align: center;
+    }
+    section img {
+        float: left;
+        width: 100%
+    }
+}
